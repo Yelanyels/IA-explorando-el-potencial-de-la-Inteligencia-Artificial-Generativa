@@ -1,0 +1,12 @@
+!pip install openai-whisper
+import whisper
+
+model = whisper.load_model("small")
+result = model.transcribe("/ruta/a/tu/audio.mp3") # sube el archivo antes
+print(result["text"])
+
+google colab
+
+midjourney
+
+https://designer.microsoft.com/
